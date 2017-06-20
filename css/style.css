@@ -87,7 +87,7 @@ HEADER
 ************************************
 ***********************************/
 .header{
-    background: url('../img/Fawzia-main.png') no-repeat fixed;
+    /*background: url('../img/Fawzia-main.png') no-repeat fixed;*/
     /*background-size: cover;*/
     min-height: 650px;
     position: relative;
@@ -702,6 +702,19 @@ cta
 Responsive media queries
 ************************************
 ***********************************/
+
+@media (min-width: 701px){
+	.header{
+		background: url('../img/Fawzia-main.png') no-repeat fixed;
+	}
+}
+
+@media (max-width: 700px){
+	.header{
+		background: url('../img/Fawzia-main-2.png') no-repeat fixed;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 980px) {
     .service-item, .blog-sec, .wrap-item, .loction-info{
     margin-bottom: 15px;
