@@ -23,6 +23,10 @@
 	/*background-color: rgba(137,236,218,0.4) !important;*/
 }
 
+#portfolio{
+	background-color: #F3F4F8;
+}
+
 .service-list{
 	padding:0 0 0 0;
 	font-size:14px;
@@ -264,7 +268,8 @@ h2.bnr-sub-title
 
 .btn-download
 {
-    background-color: #be9e21;
+    /*background-color: #be9e21;*/
+	background-color: rgba(16,137,141,1);
 }
 .btn-more, .btn-more:focus
 {
