@@ -209,7 +209,7 @@ HEADER
     font-weight: 400;
     text-transform: uppercase;
     background: transparent;
-    color: #fff;
+    color: #777;
     -webkit-transition: color 0.2s ease-out;
     transition: color 0.2s ease-out;
 }
@@ -229,6 +229,7 @@ HEADER
 .bnr-title, .bnr-sub-title
 {
     font-family: 'Fira Sans', sans-serif;
+	color: #777;
 }
 h1.bnr-title
 {
@@ -246,6 +247,7 @@ h2.bnr-sub-title
 .bnr-para
 {
     font-weight: 300;
+	color: #777;
 }
 .btn-download, .btn-more, .btn-download:hover, .btn-download:focus, .btn-more:focus
 {
