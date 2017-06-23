@@ -18,6 +18,15 @@
     margin: 0 auto;
 }
 
+/*do not remove*/
+.calltoaction{
+
+}
+
+#supervision{
+	background-color: #F3F4F8;
+}
+
 .main-section{
 	padding:90px 0 110px;
 	/*background-color: rgba(137,236,218,0.4) !important;*/
@@ -239,7 +248,7 @@ h1.bnr-title
 }
 h2.bnr-sub-title
 {
-    font-size: 45px;
+    font-size: 30px;
     text-transform: uppercase;
     padding: 20px 0px;
     font-weight: 700;
@@ -319,7 +328,7 @@ features
     border-top: 0px;
     height: 3px;
     width: 40px;
-    background-color: #BE9E21;
+    background-color: rgba(16,137,141,1);
 }
 .wrap-item h3 {
     font-size: 24px;
@@ -410,7 +419,7 @@ ul.service-list li i
 }
 .service-item a
 {
-    color: #be9e21;
+    color: rgba(16,137,141,1);
 }
 .mr-btn-15
 {
@@ -453,7 +462,7 @@ ul.service-list li i
     font-family: 'Fira Sans', sans-serif;
     color:#fff;
     font-size:20px;
-    text-align:left;
+    text-align:center;
     padding-bottom:15px;
 }
 .portfolio-item figure p {
@@ -461,7 +470,7 @@ ul.service-list li i
     line-height:18px;
     margin:0;
     color:#fff;
-    text-align:left
+    text-align:center;
 }
 .portfolio-item figure figcaption {
     top:0;
