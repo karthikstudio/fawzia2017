@@ -188,7 +188,7 @@ HEADER
 {
     /*background-color: rgba(0, 0, 0, 0.5);*/
 	background-color: rgba(137,236,218,0.4);
-    min-height: 650px;
+    /*min-height: 650px;*/
 }
 #main-header
 {
@@ -290,7 +290,7 @@ h2.bnr-sub-title
     line-height: 24px;
     padding: 10px 30px;
     border-radius: 60px;
-    margin: 50px 10px 0 0;
+    /*margin: 50px 10px 0 0;*/
     outline: none !important;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -812,6 +812,12 @@ Responsive media queries
 
 	}
 }
+
+@@media (max-width: 450px) {
+	/*.custom-title-margin{
+		margin-top: 200px;
+	}*/
+}
 /*End title text*/
 
 
@@ -838,11 +844,19 @@ Responsive media queries
 		background: url('../img/Fawzia-main.png') no-repeat fixed;
 		/*background: url('../img/title-img.png') no-repeat fixed;*/
 	}
+	.bg-color
+	{
+	    min-height: 650px;
+	}
 }
 
 @media (max-width: 700px){
 	.header{
 		background: url('../img/Fawzia-main-2.png') no-repeat fixed;
+	}
+	.bg-color
+	{
+	    min-height: 1000px;
 	}
 }
 
