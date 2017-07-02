@@ -696,8 +696,8 @@ contact
 }
 
 #sendmessage {
-    color: green;
-    border:1px solid green;
+    color: white;
+    border:1px solid white;
     display:none;
     text-align:center;
     padding:15px;
